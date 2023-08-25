@@ -1,0 +1,81 @@
+
+.token_container{
+    padding: 0 2rem ;
+    margin-top: 3rem;
+}
+
+
+.result_heading{
+    color: var(--cultured-grey, #F7F9F9);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
+
+.token_data{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 1rem;
+}
+
+.token_card{
+    padding-left: 1.1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-right: .5rem;
+
+
+    color: white;
+    border-radius: 10px;
+    background: #390554;
+}
+
+.token_card_box{
+    display: grid;
+    grid-template-columns: 45% 35% 20%;
+    padding-top: 10px;
+}
+
+.card_text{
+    margin-top: 0.5rem;
+    font-size: 12px;
+    overflow: scroll;
+
+}
+
+.question_text{
+    width: 30px;
+}
+
+.symbol_div{
+    margin-top: 100%;
+    background-color:  #960252;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.no_status{
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Poppins';
+
+}
+
+.token_datas{
+    margin-right: 8px;
+}
+
+@media (max-width:600px){
+    .token_data{
+    grid-template-columns: 100%;
+
+
+    }
+}
+

@@ -1,0 +1,126 @@
+input:focus{
+    outline: none;
+}
+
+.search_div{
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: linear-gradient(219deg, rgba(124, 15, 53, 0.20) 0%, rgba(88, 18, 102, 0.20) 100%);
+    color: white;
+    width: 435px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Mobile_view{
+    display: none;
+}
+
+.input_Search{
+    background: linear-gradient(219deg, rgba(124, 15, 53, 0.20) 0%, rgba(88, 18, 102, 0.20) 100%);
+    border-radius: 20px 0 0 20px;
+    border: 0px;
+    width: 450px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+}
+
+.input_Search::selection{
+    text-decoration: none;
+}
+
+.input_Search::placeholder{
+    color: white;
+}
+
+.search_container{
+    padding-left: 3rem ;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+    height: 6rem;
+}
+
+.search_button{
+    background: linear-gradient(132deg, rgba(124, 15, 53, 0.20) 0%, rgba(88, 18, 102, 0.20) 100%);
+    outline: none;
+    border: none; 
+    padding-right: 15px;
+    
+}
+
+
+.connect_button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background: linear-gradient(131deg, #7C0F35 0%, #581266 100%);
+    border: none;
+    
+}
+
+.connect_btn_text{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Poppins';
+    font-weight: 500;
+
+
+}
+
+
+@media (max-width:600px){
+
+    .search_div{
+        width: 330px;
+        height: 33px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .input_Search{
+        width: 282px;
+        height: 30px;
+
+    }
+
+    .search_container{
+        display: none;
+    }
+    
+    .Mobile_view{
+        display: block;
+        margin: 0 1.5rem ;
+        margin-top: 2rem;
+
+    }
+
+    .search_m_1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search_m_text{
+        color: #FFF;
+        font-family: Pacifico;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 1rem;
+    }
+    .connect_button{
+        width: 100px;
+        height: 30px;
+    }
+
+    .search_m_2{
+        margin-top: 10px;
+    }
+}

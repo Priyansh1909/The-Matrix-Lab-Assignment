@@ -1,0 +1,53 @@
+.sidebar_container{
+    position:fixed
+}
+
+
+.sidebar_content_1{
+    height: 42rem;
+}
+
+.sidebar_box{
+    color:  white;
+    padding: 20px;
+}
+
+.box_1_name{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Pacifico;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 1.5rem;
+}
+
+.box_2_name{
+    color: var(--cultured-grey, #F7F9F9);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 28px;
+    padding-left: 1.5rem;
+
+}
+
+#sidebar_token_div,#sidebar_pair_div{
+    /* background: #F30050; */
+    display: flex;
+}
+
+.svg_pic{
+    margin-top: 2px;
+}
+
+.sidebar_content_2{
+    display: flex;
+    padding-left: 2.5rem;
+}
+
+.sidebar_content_2 div{
+    margin-right: 0.75rem;
+}
+
+
